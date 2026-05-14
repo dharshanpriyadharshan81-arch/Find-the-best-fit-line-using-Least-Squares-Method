@@ -24,7 +24,8 @@ Developed by:PRIYADHARSHAN U
 RegisterNumber:212225220075
 */
 ```
-/*
+```
+
 import numpy as np
 import matplotlib.pyplot as plt
 X=np.array(eval(input()))
@@ -42,8 +43,10 @@ Y_pred=m*X+c
 print(Y_pred)
 plt.scatter(X,Y)
 plt.plot(X,Y_pred,color="red")
-plt.show() 
+plt.show()
+```
 
+```
 ## Output:
 <img width="765" height="574" alt="Screenshot 2026-05-14 220524" src="https://github.com/user-attachments/assets/88cffdbf-b68c-4af1-b2d8-3cf9dc7536ad" />
 
